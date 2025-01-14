@@ -1,0 +1,160 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------div 1---------------- */
+
+#nav {
+
+    margin-bottom:60px;
+}
+
+
+.logo {
+
+    position: relative;
+    top: 40px;
+    left: 200px;
+}
+
+.nav {
+
+    text-align: end;
+}
+
+.navber {
+
+    display: inline;
+    position: relative;
+    bottom: 10px;
+    right: 200px;
+    margin: 20px;
+    cursor: pointer;
+    color: rgb(140, 140, 140);
+}
+
+.navber:hover {
+
+    color: #000000;
+}
+
+.border {
+
+    border-radius: 20px;
+    border: 2px solid rgb(93, 174, 135);
+    color: rgb(93, 174, 135);
+    padding: 10px;
+}
+
+/* -------------------div 2------------------ */
+
+.back {
+    height: 840px;
+    background: url(./images/header-image.jpg) center no-repeat rgb(241, 246, 244)
+
+}
+
+.text {
+
+    text-align: center;
+    position: relative;
+    top: 20rem;
+}
+
+.head {
+
+    font-size: 108px;
+    opacity: 0.9;
+    color: rgb(51, 51, 51)
+}
+
+.para_1 {
+
+    letter-spacing: 0.03em;
+    color: rgb(119, 119, 119);
+    font-size: 20px;
+    margin: 10px 0px 50px;
+}
+
+.nav_2 {
+
+    display: inline-block;
+    border: 2px solid rgb(93, 174, 135);
+    background-color: rgb(93, 174, 135);
+    color: rgb(255, 255, 255);
+    border-radius:999px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 220px;
+    margin: 10px;
+    padding: 18px 0px;
+}
+
+.nav_2:hover {
+    background-color: rgb(66, 150, 110);
+}
+
+.nav2 {
+
+    background-color: transparent;
+    color: #000000;
+    border:2px solid #000000;
+}
+
+.nav2:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* --------------------div 3--------------- */
+
+
+
+.text2 {
+
+    text-align: center;
+    color: rgb(68, 68, 68);
+    margin-top: 5rem;
+    
+}
+
+.para_2 {
+
+    font-size: 54px;
+}
+
+.para2 {
+
+    color: rgb(93, 174, 135);
+    font-size: 17px;
+    margin: 20px;
+}
+
+.img_2 {
+
+    margin: 5rem;
+}
+
+.p_2 {
+
+    display: inline-block;
+    border: 2px solid rgb(93, 174, 135);
+    background-color: rgb(93, 174, 135);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius:999px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 220px;
+    margin: 10px;
+    padding: 18px 0px;
+}
+
+.p_2:hover {
+    background-color: rgb(66, 150, 110);
+}
+
+
