@@ -3,158 +3,80 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
-/* ----------------div 1---------------- */
+/* -----------------div 1---------------- */
 
-#nav {
-
-    margin-bottom:60px;
+@font-face {
+    font-family: arimo;
+    src: url(./font/Arimo-VariableFont_wght.ttf);
 }
 
+.parent {
+
+    font-family: "Arimo", serif;
+    font: weight 800px;
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+    height: 2000px;
+}
+
+
+.children {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
 
 .logo {
 
+    display: block;
     position: relative;
-    top: 40px;
-    left: 200px;
+    top: 20px;
 }
 
-.nav {
-
-    text-align: end;
-}
-
-.navber {
+.li {
 
     display: inline;
-    position: relative;
-    bottom: 10px;
-    right: 200px;
-    margin: 20px;
-    cursor: pointer;
-    color: rgb(140, 140, 140);
 }
 
-.navber:hover {
-
-    color: #000000;
-}
-
-.border {
-
-    border-radius: 20px;
-    border: 2px solid rgb(93, 174, 135);
-    color: rgb(93, 174, 135);
-    padding: 10px;
-}
-
-/* -------------------div 2------------------ */
-
-.back {
-    height: 840px;
-    background: url(./images/header-image.jpg) center no-repeat rgb(241, 246, 244)
-
-}
-
-.text {
-
-    text-align: center;
-    position: relative;
-    top: 20rem;
-}
-
-.head {
-
-    font-size: 108px;
-    opacity: 0.9;
-    color: rgb(51, 51, 51)
-}
-
-.para_1 {
-
-    letter-spacing: 0.03em;
-    color: rgb(119, 119, 119);
-    font-size: 20px;
-    margin: 10px 0px 50px;
-}
-
-.nav_2 {
-
-    display: inline-block;
-    border: 2px solid rgb(93, 174, 135);
-    background-color: rgb(93, 174, 135);
-    color: rgb(255, 255, 255);
-    border-radius:999px;
-    cursor: pointer;
-    font-size: 18px;
-    width: 220px;
-    margin: 10px;
-    padding: 18px 0px;
-}
-
-.nav_2:hover {
-    background-color: rgb(66, 150, 110);
-}
-
-.nav2 {
-
-    background-color: transparent;
-    color: #000000;
-    border:2px solid #000000;
-}
-
-.nav2:hover {
-    background-color: #000000;
-    color: #ffffff;
-}
-
-/* --------------------div 3--------------- */
 
 
 
-.text2 {
+/* -----------------div 2---------------- */
 
-    text-align: center;
-    color: rgb(68, 68, 68);
-    margin-top: 5rem;
-    
-}
+/* -----------------div 3---------------- */
 
-.para_2 {
+/* -----------------div 4---------------- */
 
-    font-size: 54px;
-}
+/* -----------------div 5---------------- */
 
-.para2 {
+/* -----------------div 6---------------- */
 
-    color: rgb(93, 174, 135);
-    font-size: 17px;
-    margin: 20px;
-}
+/* -----------------div 7---------------- */
 
-.img_2 {
+/* -----------------div 8---------------- */
 
-    margin: 5rem;
-}
+/* -----------------div 9---------------- */
 
-.p_2 {
+/* -----------------div 10---------------- */
 
-    display: inline-block;
-    border: 2px solid rgb(93, 174, 135);
-    background-color: rgb(93, 174, 135);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    border-radius:999px;
-    cursor: pointer;
-    font-size: 18px;
-    width: 220px;
-    margin: 10px;
-    padding: 18px 0px;
-}
+/* -----------------div 11---------------- */
 
-.p_2:hover {
-    background-color: rgb(66, 150, 110);
-}
+/* -----------------div 12---------------- */
+
+/* -----------------div 13---------------- */
+
 
 
