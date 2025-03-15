@@ -1,0 +1,104 @@
+* {   
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "helvetica";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 62.5%;
+    /* border: 1px solid black; */
+ }
+
+body {
+    background-color: var(--bg-white);
+    color: var(--bg-color);
+}
+
+@font-face {
+    font-family: "helvetica";
+    src: url(../Assets/Fonts/helvetica-255/Helvetica.ttf);
+}
+
+@font-face {
+    font-family: "arimo_bold";
+    src: url(../Assets/Fonts/Arimo/static/Arimo-SemiBold.ttf);
+}
+
+.arimo_bold {
+    font-family: "arimo_bold";
+}
+
+
+
+/* bg-color-started */
+:root {
+
+  --bg-green: #5dae87;
+  --bg-dark: #464645;
+  --bg-white: #ffffff;
+  --bg-black: #000000;
+  --bg-gray: #707770;
+  --bg-none:  transparent;
+}
+
+.bg-green {
+  background-color: var(--bg-green);
+}
+
+.bg-gray {
+  background-color: var(--bg-gray);
+}
+
+.bg-none {
+  background-color: var(--bg-none);
+}
+
+.bg-white {
+  background-color: var(--bg-white);
+}
+
+.bg-black {
+  background-color: var(--bg-black);
+}
+
+.bg-dark {
+  background-color: var(--bg-dark);
+}
+/* bg-color-ended */
+
+/* color-started */
+:root {
+
+  --color-green: #5dae87;
+  --color-dark: #464645;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray: #707770;
+  --color-none: transparent;
+}
+
+.color-green {
+  color: var(--color-green);
+}
+
+.color-white {
+  color: var(--color-white);
+}
+
+.color-none {
+  color: var(--color-none);
+}
+
+.color-black {
+  color: var(--color-black);
+}
+
+.color-gray {
+  color: var(--color-gray);
+}
+
+.color-dark {
+  color: var(--color-dark);
+}
+/* color-ended */

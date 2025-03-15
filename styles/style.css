@@ -1,0 +1,104 @@
+/* navbar started  */
+
+.container-main-1{
+    margin: 3.4rem 0rem;
+}
+
+#icon-nav{
+    display: none;
+}
+
+
+.container-nav{
+    font-size: 2.6rem;
+    gap: 4rem;
+    color: var(--color-dark);
+    font-weight: 800;
+}
+
+.btn-nav {
+    width: 12rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 0.8rem;
+    border: 2px solid var(--bg-green);
+    border-radius: 2.2rem;
+    background-color: var(--bg-none);
+    color: var(--color-green);
+}
+/* navbar ended */
+
+
+/* container 01 started */
+.container-1{
+    background-image: url(../Assets/images/header-image.jpg);
+    width: 100vw;
+    height: 840px;
+}
+
+.parent1-div1{
+    padding-top: 22rem !important;
+}
+
+.parent1-div2{
+    margin-top: 3.8rem;
+    gap: 2.7rem;
+}
+
+.head-1{
+    font-size: 11.4rem;
+}
+
+.para-1{
+    font-size: 2.2rem;
+}
+
+.btn-1{
+    font-weight: 600;
+    font-size: 1.6rem;
+    border-radius: 3rem;
+    border: 2px solid var(--color-green);
+    background-color: var(--bg-green);
+    color: var(--color-white);
+    padding: 1.6rem 0rem;
+    width: 22.6rem;
+}
+
+.btn-2{
+    font-weight: 600;
+    font-size: 1.6rem;
+    border-radius: 3rem;
+    border: 2px solid var(--color-dark);
+    background-color: var(--bg-none);
+    color: var(--color-dark);
+    padding: 1.6rem 0rem;
+    width: 22.6rem;
+}
+/* container 01 ended */
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+
+    .container-main-1{
+        display: flex;
+        gap: 10rem
+    }
+
+
+    #icon-nav {
+        display: block;
+    }
+    
+    .icon-nav{
+        font-size: 3rem;
+    }
+
+    .container-nav{
+        display: none !important;
+    }
+}
