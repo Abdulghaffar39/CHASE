@@ -32,7 +32,7 @@
 /* container 01 started */
 .container-1{
     background-image: url(../Assets/images/header-image.jpg);
-    width: 100vw;
+    width: 100%;
     height: 840px;
 }
 
@@ -76,28 +76,81 @@
 }
 /* container 01 ended */
 
+/* container 02 started */
+.container-2{
+    margin: 11rem 0rem;
+}
 
+.head-2{
+    font-size: 5.4rem;
+}
 
+.img-2{
+    margin: 10rem 0rem;
+}
+/* container 02 ended */
 
+/* container 03 started */
+.container-3{
+   padding: 10rem 0rem;
+}
+/* container 03 ended */
 
+/* box-3 started */
+.box-3{
+    width: 33rem;
+    height: 44rem;
+    background-color: var(--bg-white);
+    gap: 4rem;
+    padding-top: 5rem;
+}
+
+/* box-3 ended */
+
+/* icon-3 started */
+.icon-3{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
+    background-color: var(--bg-light-gray);
+    padding-top: 2.6rem;
+}
+/* icon-3 ended */
+
+/* text-3 started */
+.text-3{
+    gap: 1.6rem;
+    padding: 0rem 3rem;
+}
+/* text-3 ended */
+
+/* head-3 started */
+.head-3{
+    font-size: 2.4rem;
+}
+/* head-3 ended */
+
+/* para-3 started */
+.para-3{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+/* para-3 ended */
+
+/* parent1-div3 started */
+.parent1-div3{
+   margin-bottom: 8rem;
+}
+/* parent1-div3 ended */
+
+/* parent2-div3 started */
+.parent2-div3{
+    gap: 5rem;
+}
+/* parent2-div3 ended */
 
 
 @media (max-width: 800px) {
-
-    .container-main-1{
-        display: flex;
-        gap: 10rem
-    }
-
-
-    #icon-nav {
-        display: block;
-    }
-    
-    .icon-nav{
-        font-size: 3rem;
-    }
-
     .container-nav{
         display: none !important;
     }

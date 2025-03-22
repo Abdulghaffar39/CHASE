@@ -1,29 +1,32 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CHASE    </title>
+ 
+    <title>CHASE</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/utility.css">
 
   </head>
+
   <body>
-   
+    
+   <div class="overflow-hidden">
+    
     <header>
 
         <div class="container-main-1 d-flex flex-row justify-content-around flex-wrap align-items-center">
             <div>
-                <img src="./Assets/Images/logo.png" width="56ox" alt="logo">
+                <img src="./Assets/Images/logo.png" width="56px" alt="logo">
             </div>
 
             <div id="icon-nav">
                 <i class="fa-solid fa-bars icon-nav"></i>
             </div>
 
-            <div class="container-nav d-flex flex-row justify-content-around flex-wrap align-items-center">
+            <div class="container-nav d-flex flex-row justify-content-around flex-wrap align-items-center" id="container-nav">
                 <p class="para-nav arimo_bold color-gray">HOME</p>
                 <p class="para-nav arimo_bold color-gray">ABOUT US</p>
                 <p class="para-nav arimo_bold color-gray">SERVICES</p>
@@ -55,10 +58,82 @@
 
       </div>
 
+      <div class="container-2 d-flex flex-column justify-content-center flex-wrap align-items-center">
+
+        <h1 class="head-2 arimo_bold color-dark mb-4">WHAT IS CHASE?</h1>
+        <p class="para-2 color-green fs-3 arimo_bold">WATCH OUR PROMOTIONAL VIDEO</p>
+        <video src="video.mp3" poster="./Assets/images/video-poster.jpg" controls class="img-2"></video>
+        <button class="btn-1">BEGIN</button>
+
+      </div>
+
+      <div class="container-3 bg-light-gray d-flex flex-column justify-content-center flex-wrap align-items-center text-center">
+
+        <div class="parent1-div3">
+          <h1 class="head-2 arimo_bold color-dark mb-4">SERVICES</h1>
+          <p class="para-2 color-green fs-3 arimo_bold">WO DO LOTS OF COOL THINGS</p>
+        </div>
+
+        <div class="parent2-div3 d-flex flex-row justify-content-center flex-wrap align-items-center">
+
+          <div class="box-3 d-flex flex-column justify-content-center flex-wrap align-items-center text-center">
+
+              <div class="icon-3">
+                <img src="./Assets/images/icon-pencil.png" alt="pencil">
+              </div>
+
+              <div class="text-3 d-flex flex-column justify-content-center flex-wrap align-items-center text-center">
+
+                <h1 class="head-3 arimo_bold">GRAPHIC DESIGN</h1>
+                <P class="para-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, perferendis ullaldi</P>
+                <p class="para-2 color-green fs-3 arimo_bold">LEARN MORE</p>
+
+              </div>
+
+          </div>
+
+          <div class="box-3 d-flex flex-column justify-content-center flex-wrap align-items-center text-center">
+
+              <div class="icon-3">
+                <img src="./Assets/images/icon-camera.png" alt="pencil">
+              </div>
+
+              <div class="text-3 d-flex flex-column justify-content-center flex-wrap align-items-center text-center">
+
+                <h1 class="head-3 arimo_bold">PHOTOGRAPHY</h1>
+                <P class="para-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, perferendis ullaldi</P>
+                <p class="para-2 color-green fs-3 arimo_bold">LEARN MORE</p>
+
+              </div>
+
+          </div>
+
+          <div class="box-3 d-flex flex-column justify-content-center flex-wrap align-items-center text-center">
+
+              <div class="icon-3">
+                <img src="./Assets/images/icon-film.png" alt="pencil">
+              </div>
+
+              <div class="text-3 d-flex flex-column justify-content-center flex-wrap align-items-center text-center">
+
+                <h1 class="head-3 arimo_bold">ANIMATION</h1>
+                <P class="para-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, perferendis ullaldi</P>
+                <p class="para-2 color-green fs-3 arimo_bold">LEARN MORE</p>
+
+              </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
     </main>
 
     <footer></footer>
 
+   </div>
     <script src="https://kit.fontawesome.com/1de706ad7b.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
